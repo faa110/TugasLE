@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daffa - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ff9966, #ff5e62);
+            color: #fff;
+            text-align: center;
+        }
+
+        header {
+            padding: 40px 0; 
+            text-align: center;
+            font-size: 2rem; 
+            font-weight: bold;
+            box-shadow: 0px 4px 10px rgba(233, 37, 37, 0.2);
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+        }
+
+        nav {
+            padding: 20px 0; 
+            margin-top: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            display: inline-block; 
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px; 
+            font-weight: bold;
+            font-size: 1.4rem; 
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        section {
+            padding: 40px 0; 
+        }
+
+        .project {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 30px;
+            margin: 30px auto; 
+            border-radius: 15px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+            width: 60%; 
+            text-align: left; 
+        }
+
+        .project img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px; 
+        }
+
+        .project h3 {
+            margin-bottom: 10px; 
+        }
+
+        footer {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 20px 0; 
+            margin-top: 20px;
+        }
+
+        @keyframes glow {
+            0% { text-shadow: 0 0 5px yellow; }
+            50% { text-shadow: 0 0 20px yellow; }
+            100% { text-shadow: 0 0 5px yellow; }
+        }
+
+        h1, h2 {
+            animation: glow 2s infinite alternate;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Daffa</h1>
+        <h2>XI.2</h2>
+    </header>
+
+    <nav>
+        <a href="#about">Tentang Saya</a>
+        <a href="#projects">Proyek</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+
+    <section id ="about">
+        <h2>Tentang Saya</h2>
+        <p>Hallo saya sedang belajar membuat website yang menarik dan interaktif!</p>
+    </section>
+
+    <section id="projects">
+        <h2>Proyek Terang Bulan Mini</h2>
+        <div class="project">
+            <img src="1.png" alt="Proyek 1">
+            <h3>Terang Bulan Mini</h3>
+            <p>Praktis dan lezat, Terang Bulan Mini siap menemani aktivitasmu! Kemasan mini yang mudah dibawa, pas untuk jadi camilan andalan kapan saja dan di mana saja.</p>
+        </div>
+
+    <section id="contact">
+        <h2>Kontak</h2>
+        <p>Email: daffa.7@smaasbsolo.sch.id</p>
+        <p>Telepon: 081234567890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Daffa</p>
+    </footer>
+
+</body>
+</html>
